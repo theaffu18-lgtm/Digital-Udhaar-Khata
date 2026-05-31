@@ -26,7 +26,7 @@ const filteredCustomers = customers.filter(
     try {
       const token = localStorage.getItem("token");
 
-      const res = await API.get("/customers", {
+      const res = await API.get("/api/customers", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -57,7 +57,7 @@ const filteredCustomers = customers.filter(
     try {
       const token = localStorage.getItem("token");
 
-      await API.post("/customers", formData, {
+      await API.post("/api/customers", formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -84,7 +84,7 @@ const filteredCustomers = customers.filter(
     try {
       const token = localStorage.getItem("token");
 
-      await API.delete(`/customers/${id}`, {
+      await API.delete(`/api/customers/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

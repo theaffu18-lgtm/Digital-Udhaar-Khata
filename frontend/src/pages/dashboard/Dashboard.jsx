@@ -34,7 +34,7 @@ const [darkMode, setDarkMode] =
       const token = localStorage.getItem("token");
 
       const res = await API.get(
-        "/dashboard/stats",
+        "/api/dashboard/stats",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -53,7 +53,7 @@ const [darkMode, setDarkMode] =
     const token = localStorage.getItem("token");
 
     const res = await API.get(
-      "/ai/insights",
+      "/api/ai/insights",
       {
         headers: {
           Authorization: `Bearer ${token}`,

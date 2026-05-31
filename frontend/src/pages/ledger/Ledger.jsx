@@ -25,7 +25,7 @@ function Ledger() {
       const token = localStorage.getItem("token");
 
       const res = await API.get(
-        `/transactions/${customerId}`,
+        `/api/transactions/${customerId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -59,7 +59,7 @@ function Ledger() {
       const token = localStorage.getItem("token");
 
       await API.post(
-        "/transactions",
+        "/api/transactions",
         {
           customerId,
           ...formData,
