@@ -1,16 +1,145 @@
-# React + Vite
+# 🎨 Frontend - Digital Udhaar Khata
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern React frontend for Digital Udhaar Khata.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Features
 
-## React Compiler
+* Responsive Dashboard
+* Protected Routes
+* Animated Financial Cards
+* AI Insights UI
+* Customer Management
+* Ledger Tracking
+* PDF Reports
+* Toast Notifications
+* Sidebar Navigation
+* Search Filters
+* Modern UI/UX
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* Tailwind CSS
+* Axios
+* React Router DOM
+* React Icons
+* Recharts
+* React Toastify
+* CountUp
+
+---
+
+# 📂 Frontend Structure
+
+```bash
+frontend/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── assets/
+│   └── App.jsx
+│
+├── public/
+│
+└── package.json
+```
+
+---
+
+# ⚙️ Setup
+
+```bash
+cd frontend
+
+npm install
+```
+
+---
+
+# ▶️ Run Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌍 Environment Variable
+
+Create `.env`
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+For production:
+
+```env
+VITE_API_URL=https://your-backend.onrender.com/api
+```
+
+---
+
+# 🔥 Build Project
+
+```bash
+npm run build
+```
+
+---
+
+# 🚀 Deployment
+
+Frontend deployed using:
+
+* Vercel
+
+---
+
+# 🎨 UI Features
+
+* Gradient Cards
+* Glassmorphism
+* Responsive Sidebar
+* Mobile Menu
+* Animated Counters
+* Dark Theme
+* Smooth Transitions
+
+---
+
+# 📌 Important Files
+
+## API Configuration
+
+```bash
+src/services/api.js
+```
+
+## Dashboard
+
+```bash
+src/pages/dashboard/Dashboard.jsx
+```
+
+## Authentication
+
+```bash
+src/pages/auth/
+```
+
+---
+
+# 👨‍💻 Developer
+
+Mohammad Afthab
+
+GitHub:
+https://github.com/theaffu18-lgtm
